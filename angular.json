@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "ngrtrapp"
+  "defaultProject": "ngrtrapp",
+  "cli": {
+    "analytics": false
+  }
 }
