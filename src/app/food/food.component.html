@@ -1,1 +1,11 @@
-<p>food works!</p>
+<h2>FOOD</h2>
+<ul class="food-list">
+  <li *ngFor="let fooditem of fooditems">
+    <button (click)="addToCart()" class="add">+</button>
+    {{fooditem.name | uppercase}}
+    <br>
+    <span class="food-list food-list-extra">
+      {{fooditem.description}}......{{fooditem.price | currency}}
+    </span>
+  </li>
+</ul>

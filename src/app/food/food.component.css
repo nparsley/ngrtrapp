@@ -1,0 +1,19 @@
+.food-list {
+  margin: 15px;
+  list-style-type: none;
+  padding: 0%;
+  width: flex;
+}
+
+.food-list-extra {
+  font-style: italic;
+  margin: 55px;
+  width: flex;
+}
+
+.add {
+  color: azure;
+  background-color: green;
+  margin: 5px;
+  width: flex;
+}
